@@ -28,3 +28,6 @@ Forked from feedforce's ruby-rpm project at https://github.com/feedforce/ruby-rp
 `export HOME='/home'`
 `mkdir /shared`
 `./build-ruby.sh`
+
+5. Now just run the rpm to install that version of ruby.
+`rpm -i $HOME/rpmbuild/RPMS/x86_64/ruby-*`
