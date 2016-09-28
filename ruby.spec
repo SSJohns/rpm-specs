@@ -48,7 +48,7 @@ make %{?_smp_mflags}
 
 %install
 # installing binaries ...
-make install DESTDIR=$RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT/opt/ruby-%{rubyver}
 
 #we don't want to keep the src directory
 rm -rf $RPM_BUILD_ROOT/usr/src
